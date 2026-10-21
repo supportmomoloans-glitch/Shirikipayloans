@@ -530,6 +530,23 @@ export default function App() {
                 onClick={() => { setCurrentStep(3); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
                 className="w-full py-3.5 bg-[#00B050] hover:bg-[#009E47] text-white font-bold rounded-2xl shadow-md text-sm transition-all cursor-pointer flex items-center justify-center gap-2"
               >
+                <div className="application-instructions">
+  {/* Keep your existing instructions here */}
+
+  <img
+    src="/file_00000000cd2482119a8c30dcbbb43cd8.png"
+    alt="Shiriki Pay loan application instructions"
+    style={{
+      display: "block",
+      width: "100%",
+      height: "auto",
+      margin: "20px 0",
+      borderRadius: "12px"
+    }}
+  />
+
+  {/* Keep your existing Proceed button here */}
+</div>
                 <span>Proceed to Upload Screenshot</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
