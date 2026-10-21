@@ -496,7 +496,23 @@ export default function App() {
           </div>
         )}
 
-        {/* STEP 2: How to Apply Instructions */}
+            {/* Shiriki Pay application guide image */}
+            <div className="w-full overflow-hidden rounded-2xl border border-emerald-100">
+              <img
+                src="/assets/shiriki-application-guide.png"
+                alt="Shiriki Pay Loans - How to Apply Guide"
+                className="block w-full h-auto"
+              />
+            </div>
+
+        {/* Shiriki Pay application guide image */}
+            <div className="w-full overflow-hidden rounded-2xl border border-emerald-100">
+              <img
+                src="/assets/file_00000000cd2482119a8c30dcbbb43cd8.png"
+                alt="Shiriki Pay Loans - How to Apply Guide"
+                className="block w-full h-auto"
+              />
+            </div>{/* STEP 2: How to Apply Instructions */}
         {currentStep === 2 && (
           <div className="bg-white rounded-[32px] p-6 shadow-2xl border border-slate-100 text-slate-800 animate-fadeIn my-2 space-y-4">
             
