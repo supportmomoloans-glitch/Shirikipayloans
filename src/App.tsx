@@ -2,14 +2,9 @@ import React, { useState, useEffect } from 'react';
 import {
   Clock,
   CheckCircle2,
-  AlertCircle,
   Upload,
   ArrowRight,
-  ArrowLeft,
-  Smartphone,
   Check,
-  Info,
-  RefreshCw,
   X,
   MoreHorizontal
 } from 'lucide-react';
@@ -41,7 +36,6 @@ interface PersonalInfo {
   email: string;
   phone: string;
   idNumber: string;
-  accountNickname: string;
   agreedToTerms: boolean;
 }
 
@@ -68,7 +62,6 @@ export default function App() {
     email: '',
     phone: '',
     idNumber: '',
-    accountNickname: '',
     agreedToTerms: true,
   });
 
