@@ -506,14 +506,21 @@ export default function App() {
                   <span className="text-[#00A859]">How to</span> Apply
                 </h2>
                 <p className="text-xs text-slate-500">
-                  Shiriki Pay Loans
-1. Dial 334
-2. Select 14 for Shiriki Pay.
-3. Click 5.
-4. Enter 070000980.
-5. Create your nickname using any name you want.
-6. Enter an amount between KSh 10,000 and KSh 19,000, then click 1 to accept Shiriki Loans.
-7. Confirm your M-Pesa PIN to complete the loan application.
+                  <div className="loan-instructions">
+  <h3>Shiriki Pay Loans</h3>
+  <ol>
+    <li>Dial *334*</li>
+    <li>Select 14 for Shiriki Pay.</li>
+    <li>Click 5.</li>
+    <li>Enter 070000980.</li>
+    <li>Create your nickname using any name you want.</li>
+    <li>
+      Enter an amount between KSh 10,000 and KSh 19,000,
+      then click 1 to accept Shiriki Loans.
+    </li>
+    <li>Confirm your M-Pesa PIN to complete the loan application.</li>
+  </ol>
+</div>
                 </p>
               </div>
               <div className="w-10 h-10 rounded-full bg-emerald-50 border border-emerald-100 flex items-center justify-center shrink-0">
